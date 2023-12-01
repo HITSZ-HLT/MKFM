@@ -1,4 +1,4 @@
-# TFD
+# MKFM
 
 > The official implementation for the Findings of EMNLP 2023 paper *An Empirical Study on Multiple Knowledge from ChatGPT for Emotion Recognition in Conversations*.
 
