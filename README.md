@@ -1,6 +1,6 @@
 # MKFM
 
-> The official implementation for the Findings of EMNLP 2023 paper *An Empirical Study on Multiple Knowledge from ChatGPT for Emotion Recognition in Conversations*.
+> The official implementation for Findings of the EMNLP 2023 paper *An Empirical Study on Multiple Knowledge from ChatGPT for Emotion Recognition in Conversations*.
 
 <img src="https://img.shields.io/badge/Venue-EMNLP--23-blue" alt="venue"/> <img src="https://img.shields.io/badge/Status-Accepted-success" alt="status"/> <img src="https://img.shields.io/badge/Issues-Welcome-red">
 
@@ -11,7 +11,7 @@
 * CUDA 11.1
 
 ## Preparation
-
+Download datasets(https://drive.google.com/file/d/1Xxgp-D2idEcds023iPilyCXYY4kF9tm8/view?usp=drive_link) and save them in ./data.
 
 ## Training & Evaluation
 You can train the models with the following codes:
