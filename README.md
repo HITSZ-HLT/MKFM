@@ -16,21 +16,21 @@ Download [**datasets**](https://drive.google.com/file/d/1Xxgp-D2idEcds023iPilyCX
 ## Training & Evaluation
 You can train the models with the following codes:
 
-* ```sh --TP ```: Using auxiliary label knowledge: topic
-* ```sh --SC ```: Using auxiliary label knowledge: sarcasm
-* ```sh --MP ```: Using auxiliary label knowledge: metaphor
-* ```sh --EC ```: Using auxiliary utterance knowledge: emotional cause
-* ```sh --CS ```: Using auxiliary utterance knowledge: commonsense knowledge
-* ```sh --ACS ```: Using auxiliary utterance knowledge: affective commonsense knowledge
-* ```sh --CR ```: Using auxiliary contextual knowledge: co-reference
-* ```sh --CT ```: Using auxiliary contextual knowledge: context
-* ```sh --EC2 ```: Using auxiliary contextual knowledge: emotional cause
+* ```--TP ```: Using auxiliary label knowledge: topic
+* ```--SC ```: Using auxiliary label knowledge: sarcasm
+* ```--MP ```: Using auxiliary label knowledge: metaphor
+* ```--EC ```: Using auxiliary utterance knowledge: emotional cause
+* ```--CS ```: Using auxiliary utterance knowledge: commonsense knowledge
+* ```--ACS ```: Using auxiliary utterance knowledge: affective commonsense knowledge
+* ```--CR ```: Using auxiliary contextual knowledge: co-reference
+* ```--CT ```: Using auxiliary contextual knowledge: context
+* ```--EC2 ```: Using auxiliary contextual knowledge: emotional cause
 
-For IEMOCAP: ```sh python run.py --dataset IEMOCAP --gnn_layers 4 --lr 0.0005 --batch_size 16 --epochs 30 --dropout 0.2 ```
+For IEMOCAP: ```python run.py --dataset IEMOCAP --gnn_layers 4 --lr 0.0005 --batch_size 16 --epochs 30 --dropout 0.2 ```
 
-For MELD: ```sh python run.py --dataset MELD --lr 0.00001 --batch_size 64 --epochs 70 --dropout 0.1 ```
+For MELD: ```python run.py --dataset MELD --lr 0.00001 --batch_size 64 --epochs 70 --dropout 0.1 ```
 
-For EmoryNLP: ```sh python run.py --dataset EmoryNLP --lr 0.00005 --batch_size 32 --epochs 100 --dropout 0.3 ```
+For EmoryNLP: ```python run.py --dataset EmoryNLP --lr 0.00005 --batch_size 32 --epochs 100 --dropout 0.3 ```
 
 ## Citation
 If you find our work useful for your research, please kindly cite our paper as follows:
