@@ -37,10 +37,11 @@ For EmoryNLP: ```python run.py --dataset EmoryNLP --lr 0.00005 --batch_size 32 -
 ## Citation
 If you find our work useful for your research, please kindly cite our paper as follows:
 ```
-@article{,
+@inproceedings{tu2023empirical,
   title={An Empirical Study on Multiple Knowledge from ChatGPT for Emotion Recognition in Conversations},
-  author={Geng Tu, Bin Liang, Bing Qin, Kam-Fai Wong, Ruifeng Xu},
-  booktitle={Findings of The 2023 Conference on Empirical Methods in Natural Language Processing, (EMNLP 2023)},
+  author={Tu, Geng and Liang, Bin and Qin, Bing and Wong, Kam-Fai and Xu, Ruifeng},
+  booktitle={Findings of the Association for Computational Linguistics: EMNLP 2023},
+  pages={12160--12173},
   year={2023}
 }
 ```
