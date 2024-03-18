@@ -98,19 +98,19 @@ if __name__ == '__main__':
 
     
     # 标签增强知识
-    parser.add_argument('--TP', action='store_true', default=False, help='does not use topic')
-    parser.add_argument('--SC', action='store_true', default=False, help='does not use scarcasm')
-    parser.add_argument('--MP', action='store_true', default=False, help='does not use metaphor')
+    parser.add_argument('--TP', action='store_true', default=False, help='use topic')
+    parser.add_argument('--SC', action='store_true', default=False, help='use scarcasm')
+    parser.add_argument('--MP', action='store_true', default=False, help='use metaphor')
 
     # 标签语义知识
-    parser.add_argument('--EC', action='store_true', default=False, help='does not use emtional cause')
-    parser.add_argument('--CS', action='store_true', default=False, help='does not use common')
-    parser.add_argument('--ACS', action='store_true', default=False, help='does not use affective common')
+    parser.add_argument('--EC', action='store_true', default=False, help='use emtional cause')
+    parser.add_argument('--CS', action='store_true', default=False, help='use common')
+    parser.add_argument('--ACS', action='store_true', default=False, help='use affective common')
 
     # 标签上下文知识
-    parser.add_argument('--CR', action='store_true', default=False, help='does not use co-reference')
-    parser.add_argument('--CT', action='store_true', default=False, help='does not use context')
-    parser.add_argument('--EC2', action='store_true', default=False, help='does not use emtional cause2')
+    parser.add_argument('--CR', action='store_true', default=False, help='use co-reference')
+    parser.add_argument('--CT', action='store_true', default=False, help='use context')
+    parser.add_argument('--EC2', action='store_true', default=False, help='use emtional cause2')
 
     parser.add_argument('--seed', type=int, default=-1, help='seeds')
 
