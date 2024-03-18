@@ -12,6 +12,7 @@
 
 ## Preparation
 Download [**datasets**](https://drive.google.com/file/d/1Xxgp-D2idEcds023iPilyCXYY4kF9tm8/view?usp=drive_link) and save them in ./data.
+Download [**knowledge**](https://drive.google.com/file/d/1Xxgp-D2idEcds023iPilyCXYY4kF9tm8/view?usp=drive_link) and save them in ./.
 
 ## Training & Evaluation
 You can train the models with the following codes:
