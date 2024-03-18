@@ -11,9 +11,9 @@
 * CUDA 11.1
 
 ## Preparation
-Download [**datasets**](https://drive.google.com/file/d/1Xxgp-D2idEcds023iPilyCXYY4kF9tm8/view?usp=drive_link) and save them in ./data.
+Download [**datasets**](https://drive.google.com/file/d/1I47mbbHSc2vkNXZs_NjRng-7cglqDdSd/view?usp=drive_link) and save them in ./data.
 
-Download [**knowledge**](https://drive.google.com/file/d/1Xxgp-D2idEcds023iPilyCXYY4kF9tm8/view?usp=drive_link) and save them in ./.
+Download [**knowledge**](https://drive.google.com/file/d/1w_9aFxQVKPkGIH2Gednb_JFoimZTJLZ1/view?usp=drive_link) and save them in ./.
 
 ## Training & Evaluation
 You can train the models with the following codes:
